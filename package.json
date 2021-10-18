@@ -1,0 +1,42 @@
+{
+	"name": "bored-cli",
+	"description": "Find something to do to fight boredom.",
+	"version": "0.0.1",
+	"license": "MIT",
+	"bin": {
+		"bored-cli": "index.js",
+		"bored": "index.js"
+	},
+	"author": {
+		"name": "Nathan Englert",
+		"email": "nenglert@gmail.com",
+		"url": "https://nathanenglert.com"
+	},
+	"keywords": [
+		"bored",
+		"Nathan Englert"
+	],
+	"files": [
+		"index.js",
+		"utils"
+	],
+	"scripts": {
+		"format": "prettier --write \"./**/*.{js,json}\""
+	},
+	"dependencies": {
+		"await-to-js": "^3.0.0",
+		"axios": "^0.21.1",
+		"chalk": "^4.1.2",
+		"cli-alerts": "^1.2.2",
+		"cli-handle-error": "^4.4.0",
+		"cli-handle-unhandled": "^1.1.1",
+		"cli-meow-help": "^2.0.2",
+		"cli-welcome": "^2.2.2",
+		"meow": "^9.0.0",
+		"ora": "^5.4.1",
+		"validator": "^13.6.0"
+	},
+	"devDependencies": {
+		"prettier": "^2.4.1"
+	}
+}
