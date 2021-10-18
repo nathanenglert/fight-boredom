@@ -1,7 +1,7 @@
 {
 	"name": "fight-boredom",
 	"description": "Find something to do. A CLI for the Bored API.",
-	"version": "0.0.1",
+	"version": "0.0.2",
 	"license": "MIT",
 	"bin": {
 		"fight-boredom": "index.js",
