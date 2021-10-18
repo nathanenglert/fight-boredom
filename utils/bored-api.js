@@ -4,7 +4,7 @@ const axios = require('axios');
 const { dim, bold } = require('chalk');
 const to = require('await-to-js').default;
 const handleError = require('cli-handle-error');
-const { flags } = require('../utils/cli');
+const { flags } = require('./cli');
 const validator = require('validator');
 
 const spinner = ora({ text: '' });
