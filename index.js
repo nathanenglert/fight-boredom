@@ -11,8 +11,7 @@ const init = require('./utils/init');
 const cli = require('./utils/cli');
 const log = require('./utils/log');
 
-const alert = require('cli-alerts');
-const api = require('./src/bored-api');
+const api = require('./utils/bored-api');
 
 const input = cli.input;
 const flags = cli.flags;
