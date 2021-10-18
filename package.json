@@ -1,10 +1,10 @@
 {
-	"name": "bored-cli",
-	"description": "Find something to do to fight boredom.",
+	"name": "fight-boredom",
+	"description": "Find something to do. A CLI for the Bored API.",
 	"version": "0.0.1",
 	"license": "MIT",
 	"bin": {
-		"bored-cli": "index.js",
+		"fight-boredom": "index.js",
 		"bored": "index.js"
 	},
 	"author": {
@@ -14,6 +14,7 @@
 	},
 	"keywords": [
 		"bored",
+		"fight-boredom",
 		"Nathan Englert"
 	],
 	"files": [

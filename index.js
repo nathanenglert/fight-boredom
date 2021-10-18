@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 
 /**
- * bored
+ * fight-boredom
  * Find something to do to fight boredom.
  *
  * @author Nathan Englert <https://nathanenglert.com>
